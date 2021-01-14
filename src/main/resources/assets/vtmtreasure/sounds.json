@@ -1,0 +1,7 @@
+{
+  "sabi": {
+    "category": "item",
+    "subtitle": "vtmtreasure.subtitle.sabilaba",
+    "sounds": ["vtmtreasure:item/sabi"]
+  }
+}
