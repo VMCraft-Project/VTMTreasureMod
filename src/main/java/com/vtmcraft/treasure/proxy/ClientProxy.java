@@ -1,6 +1,6 @@
 package com.vtmcraft.treasure.proxy;
 
-import com.vtmcraft.treasure.register.ModelsRegister;
+import com.vtmcraft.treasure.register.*;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 

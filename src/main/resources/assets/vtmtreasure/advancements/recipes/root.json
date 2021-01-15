@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": {
+      "item": "vtmtreasure:sabilaba"
+    },
+    "title":{
+      "translate": "advancements.ex.root.title"
+    },
+    "description": {
+      "translate": "advancements.ex.root.description"
+    },
+    "frame": "task"
+  }
+}
