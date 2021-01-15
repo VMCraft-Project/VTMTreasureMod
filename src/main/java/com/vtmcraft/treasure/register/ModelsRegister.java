@@ -17,6 +17,7 @@ public class ModelsRegister {
     @SubscribeEvent
     public void registerModels(ModelRegistryEvent event) {
         registerModel(ItemsRegister.SABILABA);
+        registerModel(ItemsRegister.StrawberryMilk);
 
     }
 
