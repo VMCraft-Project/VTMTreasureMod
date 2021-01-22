@@ -1,6 +1,6 @@
 {
   "sabi": {
-    "category": "item",
+    "category": "player",
     "subtitle": "vtmtreasure.subtitle.sabilaba",
     "sounds": ["vtmtreasure:item/sabi"]
   }
