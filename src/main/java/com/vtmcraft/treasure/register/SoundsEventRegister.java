@@ -21,9 +21,9 @@ public class SoundsEventRegister {
     }
 
     @SubscribeEvent
-    public void registerSounds(RegistryEvent.Register<SoundEvent> event){
+    public void registerSounds(RegistryEvent.Register<SoundEvent> event) {
         final SoundEvent[] soundEvents = {
-            SaBi_Sound
+                SaBi_Sound
         };
         event.getRegistry().registerAll(soundEvents);
     }

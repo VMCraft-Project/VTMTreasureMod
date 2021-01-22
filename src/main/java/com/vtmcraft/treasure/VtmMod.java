@@ -10,8 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = VtmMod.MODID, name = VtmMod.NAME, version = VtmMod.VERSION)
-public class VtmMod
-{
+public class VtmMod {
     public static final String MODID = "vtmtreasure";
     public static final String NAME = "VTMTreasure Mod";
     public static final String VERSION = "1.0";
@@ -28,16 +27,14 @@ public class VtmMod
     private static Logger logger;
 
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
+    public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
         logger.info("preInit");
         proxy.preInit(event);
     }
 
     @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
+    public void init(FMLInitializationEvent event) {
         // some example code
         logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
         proxy.init(event);

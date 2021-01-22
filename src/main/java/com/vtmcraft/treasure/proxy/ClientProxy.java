@@ -1,10 +1,11 @@
 package com.vtmcraft.treasure.proxy;
 
-import com.vtmcraft.treasure.register.*;
+import com.vtmcraft.treasure.register.ModelsRegister;
+import com.vtmcraft.treasure.register.SoundsEventRegister;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-public class ClientProxy extends CommonProxy{
+public class ClientProxy extends CommonProxy {
     @Override
     public void preInit(FMLPreInitializationEvent event) {
         super.preInit(event);

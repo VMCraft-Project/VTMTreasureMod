@@ -10,7 +10,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber
 public class ItemsRegister {
-
     public static final Item SABILABA = new ItemSabiLaba();
     public static final Item StrawberryMilk = new ItemStrawberryMilk();
 

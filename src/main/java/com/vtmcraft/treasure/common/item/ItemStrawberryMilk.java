@@ -17,7 +17,7 @@ public class ItemStrawberryMilk extends ItemFood {
     public ItemStrawberryMilk() {
         super(1, 0.6f, false);
         this.setRegistryName(name);
-        this.setUnlocalizedName(VtmMod.MODID+"."+name);
+        this.setUnlocalizedName(VtmMod.MODID + "." + name);
         this.setCreativeTab(CreativeTab.VTM_CREATIVE_TAB);
         this.setNoRepair();
         this.setAlwaysEdible();

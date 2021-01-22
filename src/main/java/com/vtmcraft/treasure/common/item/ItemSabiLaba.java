@@ -7,15 +7,16 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
-import net.minecraft.util.*;
 
 public class ItemSabiLaba extends Item {
     private static String name = "sabilaba";
 
     public ItemSabiLaba() {
         this.setRegistryName(name);
-        this.setUnlocalizedName(VtmMod.MODID+"."+name);
+        this.setUnlocalizedName(VtmMod.MODID + "." + name);
         this.setCreativeTab(CreativeTab.VTM_CREATIVE_TAB);
         this.setMaxStackSize(1);
         this.setNoRepair();
