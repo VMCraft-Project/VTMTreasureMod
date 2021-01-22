@@ -6,11 +6,12 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public class CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
+        new SoundsEventRegister();
         new ItemsRegister();
     }
 
     public void init(FMLInitializationEvent event) {
-        new SoundsEventRegister();
+
     }
 
 }

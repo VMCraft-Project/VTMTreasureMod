@@ -1,7 +1,6 @@
 package com.vtmcraft.treasure.register;
 
 import com.vtmcraft.treasure.VtmMod;
-import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.common.MinecraftForge;

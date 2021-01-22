@@ -3,7 +3,6 @@ package com.vtmcraft.treasure.common.item;
 import com.vtmcraft.treasure.VtmMod;
 import com.vtmcraft.treasure.common.CreativeTab;
 import com.vtmcraft.treasure.register.SoundsEventRegister;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -25,9 +24,7 @@ public class ItemSabiLaba extends Item {
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
         //播放音效
-        System.out.println("Sabi OK, Pos is X: " + playerIn.posX + " Y: " + playerIn.posY + " Z: " + playerIn.posZ);
         worldIn.playSound(null, playerIn.getPosition(), SoundsEventRegister.SaBi_Sound, SoundCategory.PLAYERS, 1.0f, 1.0f);
-        // playerIn.getEntityWorld().playSound(null, playerIn.getPosition(), SoundsEventRegister.SaBi_Sound, SoundCategory.PLAYERS, 1.0f, 1.0f);
         //设置cd
         playerIn.getCooldownTracker().setCooldown(this, 60);
         return super.onItemRightClick(worldIn, playerIn, handIn);

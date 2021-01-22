@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 import javax.annotation.ParametersAreNonnullByDefault;
 
 public class ItemStrawberryMilk extends ItemFood {
-    private static String name = "strawberry_milk";
+    private static final String name = "strawberry_milk";
 
     public ItemStrawberryMilk() {
         super(1, 0.6f, false);
