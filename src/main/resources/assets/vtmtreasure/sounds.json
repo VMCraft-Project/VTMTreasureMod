@@ -1,0 +1,12 @@
+{
+  "sabi": {
+    "subtitle": "sabi",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "vtmtreasure:item/sabi",
+        "stream": true
+      }
+    ]
+  }
+}
